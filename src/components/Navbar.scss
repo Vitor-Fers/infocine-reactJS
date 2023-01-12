@@ -1,0 +1,60 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #100836;
+
+    h2 { 
+        a {
+        text-decoration: underline;
+        display: flex;
+        color: gold;
+        
+        align-items: center;
+        gap: 0.5rem;
+        transition: .5s;  
+
+        &:hover {
+            color: gold;
+            text-shadow: 0px 0px 3px;
+        }
+       }
+
+
+    }
+
+    form{
+        display: flex;
+        gap: .5rem;
+        input{
+            padding: 3px;
+            border-radius: 5px;
+            border: solid 2px rgb(25, 25, 202);
+
+            &::placeholder{
+                text-align: center;
+                font-size: 16px;
+            }
+        }
+
+        button {
+            background-color: #0043d4;
+            border-radius: 4px;
+            border: 2px solid #0043d4;
+            color: #000;
+            padding: 0.3rem;
+            font-size: 1.3rem;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            transition: .4s;
+
+            &:hover {
+                background-color: transparent;
+                color: gold;
+                border-color: gold;
+            }
+        }
+    }
+}

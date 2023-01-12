@@ -1,0 +1,82 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    .titlePag {
+        align-self: center;
+        color: #fff;
+        font-size: 2rem;
+        margin-top: 1rem;
+
+        .query-text {
+            color: gold
+        }
+        
+    }
+
+    .movies-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        max-width: 1200px;
+        padding: 2rem;
+        margin: 0 auto;
+
+        .movie-card {
+            display: flex;
+            flex-direction: column;
+            width: 30%;
+            color: #fff;
+            margin-bottom: 2.5rem;
+            justify-content: space-between;
+            background-color: #111;
+            padding: 1rem;
+            border: solid 2px gold;
+            border-radius: 10px;
+            box-shadow: 10px 10px 15px rgb(1, 8, 44);
+
+            img {
+                max-width: 100%;
+                border-radius: 3px;
+            }
+
+            img,h2,p {
+                margin-bottom: 1rem;
+            }
+
+            svg{
+                color: gold;
+            }
+
+
+
+            .title {
+                font-size: 1.5rem;
+                padding: .3rem;
+                color: #fff;
+                justify-content: center;
+
+            }
+
+            a {
+                color: gold;
+                border-radius: 4px;
+                border: 2px solid gold;
+                padding: 1rem 0.5rem;
+                text-align: center;
+                font-weight: 700;
+                cursor: pointer;
+                transition: .4s;
+    
+                &:hover {
+                    background-color: gold;
+                    color: rgb(0, 0, 0);
+                    text-shadow: 0px 0px 0px;
+                }
+            }
+            
+        }
+        
+    }
+    
+}
