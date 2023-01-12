@@ -20,6 +20,7 @@ export default function Home() {
 
   useEffect(() => {
     console.log('use effect foi chamado')
+    console.log('Me contrata imply, Juro de coração que me dedicarei, eu visto a camisa da empresa!')
     
     const topRatedUrl = `${moviesURL}top_rated${apiKey}&language=pt-BR`
     getTopRatedMovies(topRatedUrl)
