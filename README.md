@@ -1,3 +1,3 @@
 # infocine-reactJS
 
-Site: https://infocine-react-js-vitor.vercel.app/
+Site: https://infocine-react-js.vercel.app/
